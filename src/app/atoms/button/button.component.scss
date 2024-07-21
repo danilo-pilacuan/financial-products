@@ -3,6 +3,7 @@
   padding: 1em;
   border-radius: 5%;
   border:none;
+  margin: 0.2rem;
 
   &--primary{
     background-color: #f4de6e;
@@ -12,8 +13,11 @@
     background-color: #eaecf2;
   }
 
-  &:hover
+  &--primary:hover
   {
     background-color: #FFDD00;
+  }
+  &--secondary:hover {
+    background-color: #b5b7bb;
   }
 }
