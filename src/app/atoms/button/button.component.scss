@@ -1,0 +1,19 @@
+.button{
+  align-items: center;
+  padding: 1em;
+  border-radius: 5%;
+  border:none;
+
+  &--primary{
+    background-color: #f4de6e;
+  }
+
+  &--secondary{
+    background-color: #eaecf2;
+  }
+
+  &:hover
+  {
+    background-color: #FFDD00;
+  }
+}
