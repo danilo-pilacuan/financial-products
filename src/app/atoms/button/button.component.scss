@@ -1,12 +1,17 @@
 .button{
+  display: inline-flex;
   align-items: center;
   padding: 1em;
-  border-radius: 5%;
+  border-radius: 10%;
   border:none;
   margin: 0.2rem;
+  font-family: Roboto,    sans-serif;
+  font-weight: bold;
+  color: #0d204f;
 
   &--primary{
-    background-color: #f4de6e;
+    background-color: #fedc2e;
+
   }
 
   &--secondary{
@@ -15,7 +20,8 @@
 
   &--primary:hover
   {
-    background-color: #FFDD00;
+    background-color: #fec42a;
+
   }
   &--secondary:hover {
     background-color: #b5b7bb;

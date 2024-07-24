@@ -1,3 +1,25 @@
-<p>crud works!</p>
+<!--
 <fp-button text="Works" type="primary"/>
 <fp-button text="Secondary" type="secondary"/>
+
+<fp-input-field type="text" placeholder="Ingresar Id" label="Nombre" validateText="El id no es válido" [disabled]="true"/> -->
+
+<div class="crud-component">
+  <div class="crud-component__header">
+    <fp-input-field type="text" placeholder="Ingresar Id" label="" validateText="El id no es válido"/>
+    <fp-button text="Agregar" type="primary"/>
+  </div>
+  <div class="crud-component__body">
+    <fp-table [columns]="tableColumnsInput" [data]="dataProducts"></fp-table>
+  </div>
+  <div class="crud-component__footer">
+    <fp-text text="Resultados" size="2em"/>
+    <select [(ngModel)]="selectedOption"  (change)="onSelectChange()">
+      <option value="5">5</option>
+      <option value="10">10</option>
+      <option value="20">20</option>
+    </select>
+  </div>
+
+</div>
+

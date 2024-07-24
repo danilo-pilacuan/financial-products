@@ -1,0 +1,62 @@
+.input-field {
+  display: block;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  &__label {
+    font-size: 1em;
+    color: #0d204f;
+
+  }
+
+  &__input{
+    display: block;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border: 1px solid #bfbfc0;
+    border-radius: 5px;
+    padding: 1em;
+  }
+
+
+
+  &__input--error {
+    border-color: red;
+  }
+
+  &__validate-text {
+    display: none;
+    color: red;
+    font-size: 0.8em;
+  }
+
+  &__validate-text--show {
+    display: block;
+  }
+
+  // align-items: center;
+  // padding: 1em;
+  // border-radius: 10%;
+  // border: none;
+  // margin: 0.2rem;
+  // font-family: Roboto, sans-serif;
+  // font-weight: bold;
+  // color: #0d204f;
+
+  // &--primary {
+  //   background-color: #fedc2e;
+
+  // }
+
+  // &--secondary {
+  //   background-color: #eaecf2;
+  // }
+
+  // &--primary:hover {
+  //   background-color: #fec42a;
+
+  // }
+
+  // &--secondary:hover {
+  //   background-color: #b5b7bb;
+  // }
+}

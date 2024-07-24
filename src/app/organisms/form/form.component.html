@@ -1,1 +1,25 @@
-<p>form works!</p>
+<div class="form-component">
+  <div class="form-component__header">
+    <fp-text text="Formulario de Registro" size="30px"></fp-text>
+    <hr>
+  </div>
+  <div class="form-component__body">
+    <div class="form-component__body__row">
+      <fp-input-field type="text" placeholder="Ingresar Id" label="ID" validateText="El id no es válido" [disabled]="true"></fp-input-field>
+      <fp-input-field type="text" placeholder="Ingresar Id" label="Nombre" validateText="El id no es válido"></fp-input-field>
+    </div>
+    <div class="form-component__body__row">
+      <fp-input-field type="text" placeholder="Ingresar Id" label="Descripción" validateText="El id no es válido" [disabled]="true"></fp-input-field>
+      <fp-input-field type="text" placeholder="Ingresar Id" label="Logo" validateText="El id no es válido"></fp-input-field>
+    </div>
+    <div class="form-component__body__row">
+      <fp-input-field type="text" placeholder="Ingresar Id" label="Fecha Liberación" validateText="El id no es válido" [disabled]="true"></fp-input-field>
+      <fp-input-field type="text" placeholder="Ingresar Id" label="Fecha Revisión" validateText="El id no es válido"></fp-input-field>
+    </div>
+
+  </div>
+  <div class="form-component__footer">
+    <fp-button text="Guardar" type="primary"></fp-button>
+    <fp-button text="Cancelar" type="secondary"></fp-button>
+  </div>
+</div>

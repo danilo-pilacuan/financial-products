@@ -1,1 +1,8 @@
-<p>dropdown works!</p>
+<div class="dropdown">
+  <button class="dropdown__button">Select an option</button>
+  <div class="dropdown__content">
+    <ul>
+      <li *ngFor="let item of data">{{ item }}</li>
+    </ul>
+  </div>
+</div>

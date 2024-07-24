@@ -1,0 +1,21 @@
+<label for="inputField"
+[ngClass]="{
+'input-field input-field__label':'true'}">{{ label }}</label>
+<input
+  id="inputField"
+  type="{{ type }}"
+  [ngClass]="{
+  'input-field input-field__input':'true',
+  'input-field__input--error':'true'
+  }"
+  [placeholder]="placeholder"
+  [value]="value"
+  (input)="onInput($event)"
+  [disabled]="disabled"
+/>
+<p
+  [ngClass]="{
+  'input-field input-field__validate-text':'true',
+  'input-field__validate-text--show':'true'
+  }"
+>{{ validateText }}</p>
